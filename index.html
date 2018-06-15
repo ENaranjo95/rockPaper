@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="UTF-8">
+
+	<title>Parchment, Stone, or Blade?</title>
+
+	<link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+
+<h1>Rock, Paper, or Scissors?</h1>
+
+<p>Challenge me to a game of <strong>Rock</strong> beats <strong>scissors</strong>, <strong>scissors</strong> beats <strong>paper</strong>, and <strong>lizard</strong> beats <strong>spock</strong>. Will you <span>win</span>? Or will you <span>lose</span>?</p>
+
+<div class="scoreboard">
+  <h2>Scoreboard</h2>
+  <table>
+    <tbody>
+      <tr>
+        <td id="humanScore">0</td>
+        <td id="computerScore">0</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <th>You</th>
+        <th>Bot</th>
+      </tr>
+    </tfoot>
+  </table>
+</div>
+
+<h2>Choose Wisely</h2>
+
+<button id="rock">Rock</button>
+
+<button id="paper">Paper</button>
+
+<button id="scissors">Scissors</button>
+
+<button id="spock">Spock</button>
+
+<button id="lizard">Lizard</button>
+
+<div id="playersChoice"></div>
+<div id="botsChoice"></div>
+<div id="status"></div>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
